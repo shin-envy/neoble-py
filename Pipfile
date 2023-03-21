@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pipenv = "*"
 django = "*"
+requests = "*"
+django-rest-framework = "*"
 
 [dev-packages]
 
