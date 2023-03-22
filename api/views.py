@@ -115,8 +115,6 @@ def parse_item_data(item_bytes):
     return nbt_file[0][0]
 
 def start_refresh(last_updated, _last_refresh):
-    if _last_refresh == last_updated :
-        return
     print("starting refresh")
     last_refresh = last_updated
     next_update = last_updated / 1000 + 62
