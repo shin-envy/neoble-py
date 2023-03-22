@@ -8,6 +8,7 @@ pipenv = "*"
 django = "*"
 requests = "*"
 django-rest-framework = "*"
+nbt = "*"
 
 [dev-packages]
 

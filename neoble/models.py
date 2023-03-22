@@ -12,3 +12,7 @@ class Item(models.Model):
 class Player(models.Model):
     player_name = models.CharField(max_length=255)
     player_uuid = models.CharField(max_length=255)
+    
+class Auction(models.Model):
+    last_updated = models.CharField(max_length=255)
+    auctions = models.JSONField()
